@@ -39,12 +39,10 @@ export default function Login() {
           value={form.password}
           onChange={onChangeInputs}
           placeholder="Digite sua senha"
-          // pattern="/^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[$*&@#])[0-9a-zA-Z$*&@#]{8,}$/
-          // "
-          // pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[$*&@#])[0-9a-zA-Z$*&@#]{8,}$
-          // "
-          // title="Deve conter ao menos uma letra minúscula, uma letra maiúscula, um caractere especial e ao menos 8 dos caracteres mencionados"
-          // type="password"
+          pattern="/^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[$*&@#])[0-9a-zA-Z$*&@#]{8,}$/
+          "
+          title="Deve conter ao menos uma letra minúscula, uma letra maiúscula, um caractere especial e ao menos 8 dos caracteres mencionados"
+          type="password"
           required
         />
         <button>Fazer Login</button>
